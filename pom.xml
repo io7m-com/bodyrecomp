@@ -40,9 +40,9 @@
   </licenses>
 
   <scm>
-    <url>https://github.com/io7m/bodyrecomp</url>
-    <connection>scm:git:https://github.com/io7m/bodyrecomp</connection>
-    <developerConnection>scm:git:https://github.com/io7m/bodyrecomp</developerConnection>
+    <url>https://www.github.com/io7m-com/bodyrecomp</url>
+    <connection>scm:git:https://www.github.com/io7m-com/bodyrecomp</connection>
+    <developerConnection>scm:git:https://www.github.com/io7m-com/bodyrecomp</developerConnection>
   </scm>
 
   <developers>
@@ -55,7 +55,7 @@
   </developers>
 
   <issueManagement>
-    <url>https://github.com/io7m/bodyrecomp/issues</url>
+    <url>https://www.github.com/io7m-com/bodyrecomp/issues</url>
     <system>GitHub Issues</system>
   </issueManagement>
 
@@ -73,7 +73,7 @@
 
   <ciManagement>
     <system>GitHub Actions</system>
-    <url>https://github.com/io7m/bodyrecomp/actions</url>
+    <url>https://www.github.com/io7m-com/bodyrecomp/actions</url>
   </ciManagement>
 
   <dependencyManagement>
