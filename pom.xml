@@ -36,6 +36,7 @@
 
     <!-- Third-party dependencies. -->
     <org.junit.version>5.11.3</org.junit.version>
+    <org.immutables.version>2.10.1</org.immutables.version>
   </properties>
 
   <licenses>
@@ -142,7 +143,7 @@
       <dependency>
         <groupId>org.immutables</groupId>
         <artifactId>value</artifactId>
-        <version>2.10.1</version>
+        <version>${org.immutables.version}</version>
       </dependency>
       <dependency>
         <groupId>com.io7m.immutables.style</groupId>
@@ -192,6 +193,25 @@
   </dependencyManagement>
 
   <build>
+    <pluginManagement>
+      <plugins>
+        <!-- Configure compiler -->
+        <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-compiler-plugin</artifactId>
+          <configuration>
+            <annotationProcessorPaths>
+              <dependency>
+                <groupId>org.immutables</groupId>
+                <artifactId>value</artifactId>
+                <version>${org.immutables.version}</version>
+              </dependency>
+            </annotationProcessorPaths>
+          </configuration>
+        </plugin>
+      </plugins>
+    </pluginManagement>
+
     <plugins>
       <!-- Generate a site -->
       <plugin>
