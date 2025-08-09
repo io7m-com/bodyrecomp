@@ -1,0 +1,7 @@
+## bodyrecomp
+
+The `bodyrecomp` package implements a set of tools and APIs
+for calculating nutritional targets for body recomposition. It
+is based upon the excellent book [Ultimate Guide To Body
+Recomposition](https://jeffnippard.com/) by Jeff Nippard.
+
